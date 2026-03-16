@@ -57,8 +57,9 @@ There is no database. All state lives in memory.
 
 ```
 ipchat/
+├── public/
+│   └── index.html  # Full frontend (served as static file)
 ├── server.js       # Express + Socket.io backend
-├── index.html      # Full frontend (served as static file)
 ├── package.json
 └── README.md
 ```
